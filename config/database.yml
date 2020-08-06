@@ -25,4 +25,7 @@ production:
   host: localhost
   adapter: postgresql
   encoding: utf8
-  database: waldo_production
+  database: waldo_app
+  pool: 5
+  username: <%= ENV['WALDO_DATABASE_USER'] %>
+  password: <%= ENV['WALDO_DATABASE_PASSWORD'] %>
