@@ -33,9 +33,9 @@ set :pg_ask_for_password, true
 
 #set :default_shell, "/bin/bash -l"
 set :rvm_type, :system
-append :linked_files, "config/master.key"
-append :linked_files, "config/secrets.yml.key"
-append :linked_files, ".env.production"
+#append :linked_files, "config/master.key"
+#append :linked_files, "config/secrets.yml.key"
+#append :linked_files, ".env.production"
 
 ## Defaults:
 # set :scm,           :git
