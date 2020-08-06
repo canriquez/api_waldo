@@ -29,3 +29,13 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+#ignoring enviroment file
+
+/config/environments/development.rb
+
+
+/config/master.key
+
+#ignoring .env.development
+/.env.development
